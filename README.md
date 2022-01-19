@@ -11,4 +11,4 @@ $ npm install
 $ npm run start
 ```
 
-### Cloned from [rolipolli/wordle-game](https://github.com/rolipolli/wordle-game)
+### Cloned from [hannahcode/wordle-game](https://github.com/hannahcode/wordle)
