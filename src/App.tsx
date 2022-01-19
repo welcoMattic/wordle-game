@@ -37,7 +37,7 @@ function App() {
   }, [isGameWon]);
 
   const onChar = (value: string) => {
-    if (currentGuess.length < 5 && guesses.length < 6) {
+    if (currentGuess.length < 11 && guesses.length < 6) {
       setCurrentGuess(`${currentGuess}${value}`);
     }
   };
@@ -56,7 +56,7 @@ function App() {
 
     const winningWord = isWinningWord(currentGuess);
 
-    if (currentGuess.length === 5 && guesses.length < 6 && !isGameWon) {
+    if (currentGuess.length === 11 && guesses.length < 6 && !isGameWon) {
       setGuesses([...guesses, currentGuess]);
       setCurrentGuess("");
 
